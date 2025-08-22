@@ -1,0 +1,25 @@
+Most Critical (The Core Predictors): The GENE_NAME columns (e.g., ESR1, ERBB2, AURKA, PTEN, PGR, TP53). These are the direct molecular drivers of the different subtypes.
+
+The PAM50 classifier, the gold standard for breast cancer subtyping, is built from the expression levels of 50 key genes.
+
+Key Gene Columns to look for: ESR1, ERBB2 (also known as HER2), PGR, AURKA, MKi67, TP53, PTEN, EGFR, CK5, FOXA1.
+
+Why they are useful: The core definition of the intrinsic subtypes (Luminal A, Luminal B, HER2-enriched, Basal-like) is based on the expression patterns of these genes.
+
+Luminal A/B: High expression of ESR1 (Estrogen Receptor) and PGR (Progesterone Receptor).
+
+HER2-enriched: High expression of ERBB2 (HER2) and associated genes.
+
+Basal-like: Typically low expression of ESR1, PGR, ERBB2 but high expression of proliferation genes (AURKA, MKi67) and basal markers (CK5, EGFR).
+
+
+
+
+(MOST LIKELY WILL NOT USE THE COLUMNS BELOW)
+
+Highly Informative: Clinical & Genetic Marker Columns
+These columns are strong proxies for the gene expression patterns and are often used in clinical practice for a quick classification.
+
+ER Status, HER2 Status, PR Status: These are the standard immunohistochemistry (IHC) markers used for initial diagnosis and are directly linked to the subtypes. A model could almost predict the subtype based on these three columns alone (e.g., ER+/HER2- is likely Luminal; ER-/HER2-/PR- is likely Basal).
+
+Integrative Cluster: This is a specific genomic classification from the original METABRIC study that goes beyond the basic subtypes into 11 clusters. It is a direct, high-level summary of the tumor's molecular profile and would be an incredibly powerful feature (but using it might be considered "cheating" if your goal is to predict the subtype from first principles).

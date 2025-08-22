@@ -1,0 +1,6 @@
+column names: age_at_diagnosis, cancer_type, cancer_type_detailed, pam50_+_claudin-low_subtype, pten, tp53, aurka, egfr, erbb2, rpgr, rpgr_mut, egfr_mut, erbb2_mut
+
+
+split the pam50 columns into a binary array for each type, each if Luminal A then 10000 but if Luminal B then 01000
+
+pam50 encoded is Basal-like, claudin-low, Her2, LumA, LumB, NC, Normal

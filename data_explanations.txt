@@ -1,0 +1,5 @@
+pam50_encoded is Basal-like, Her2, LumA, LumB, NC, Normal, claudin-low
+
+overall_survival 0 for death and 1 for living i.e. survival boolean
+
+cancer_type_detailed_encoded is Breast, Breast Invasive Ductal Carcinoma, Breast Invasive Lobular Carcinoma, Breast Invasive Mixed Mucinous Carcinoma, Breast Mixed Ductal and Lobular Carcinoma, Metaplastic Breast Cancer
